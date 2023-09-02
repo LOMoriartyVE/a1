@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Moriarty</title>
+        <link rel="icon" type="image/png" href="images/Nixie.png">
+        <link rel="stylesheet" href="login.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+<section class="sec1" id="sec1">
+<div class="container" id="container">
+    <h1 id="title">Login</h1>
+    <form action="index.html" method="GET" >
+    <h4 class="note" id="note"></h4>
+    
+    <div class="input_div" id="input_div">
+        <label class="input_label" for="user">Username</label>
+        <input type="text" name="username" minlength="5" maxlength="16" class="input" id="user" required>
+        
+        <label label class="input_label" for="pass">Password</label>
+        <input type="password" name="password"  minlength="8" maxlength="16" class="input" id="passs"  required>
+        <h4 class="h4_forget" id="forget_c">Forget my Password</h4>
+        <input type="submit" class="login_button" id="login" ></input>
+        <h4 href="">You don't have one ? <span class="create_text" onclick="createAcc()">create one</span></h4>
+        
+</div>
+</form>
+</div>
+
+</section>
+
+
+</body><script src="LOgin.js"></script>
+</html>
